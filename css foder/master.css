@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+}
+.navbar h2{
+font-size: 50px;
+
+width: 20%;
+float: left;
+color: white;
+
+}
+.navbar ul{
+ 
+    list-style: none;
+ 
+    width: 80%;
+  
+    float: left;
+
+    
+
+}
+.navbar > ul li{
+    display:inline-block ;
+    width: 150px;
+
+    
+    
+}
+.navbar > ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 9px;
+
+    font-size: 25px;
+    color:brown;
+    
+}
+.navbar > ul li{
+    position: relative;}
+
+.navbar ul li ul{
+    position: absolute;
+    display: none;
+}
+.navbar > ul li a:hover +ul{
+    display: block;
+}
+.clear{
+
+clear: both;
+}
+
+.form input , .form select{
+    display: block;
+    width: 80%;
+    font-size: larger;
+
+}
+.form label{
+    font-size: 30px;
+}
+.form input :focus{
+    background-color: cornflowerblue;
+}
+.form-display{
+     left: 20px; 
+   
+}
